@@ -1,0 +1,130 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ThreadPriorityDemo",
+            "request": "launch",
+            "mainClass": "ThreadPriorityDemo",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "UserDefinedExceptionExample",
+            "request": "launch",
+            "mainClass": "UserDefinedExceptionExample",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionDemo",
+            "request": "launch",
+            "mainClass": "ExceptionDemo",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionDemo",
+            "request": "launch",
+            "mainClass": "JAVA_ENDSEM.ExceptionDemo",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "FileHandlingDemo",
+            "request": "launch",
+            "mainClass": "JAVA_ENDSEM.FileHandlingDemo",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "JdbcOdbcExample",
+            "request": "launch",
+            "mainClass": "JAVA_ENDSEM.JdbcOdbcExample",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "DriveTime",
+            "request": "launch",
+            "mainClass": "lab.DriveTime",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "OOM.Armstrong",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "CorrelationMatrix",
+            "request": "launch",
+            "mainClass": "OOM.CorrelationMatrix",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "array_2d",
+            "request": "launch",
+            "mainClass": "array_2d",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "swap",
+            "request": "launch",
+            "mainClass": "swap",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "Swap",
+            "request": "launch",
+            "mainClass": "Swap",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "B",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "StaticTest",
+            "request": "launch",
+            "mainClass": "StaticTest",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "CODING_3cb5413"
+        },
+        {
+            "name": "C/C++: clang build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang build active file"
+        }
+    ],
+    "version": "2.0.0"
+}
