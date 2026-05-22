@@ -62,7 +62,7 @@ void solve(){
                 int cur=a[i];
                 int step=0;
                 bool one=false;
-                while(1){
+                while(true){
                     if(cost.find(cur)!=cost.end()){
                         cost[cur]+=step;
                         cnt[cur]++;
