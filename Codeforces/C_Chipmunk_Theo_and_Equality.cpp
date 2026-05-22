@@ -43,13 +43,48 @@ void solve(){
     while(t--){
             int n; cin>>n;
             invl(a,n)
-            int ans=0;
-
-            int min_even=INT_MAX;
-            
-            rep(0,n-1,1){
-
+            unordered_map<int,int> cost,cnt;
+            int cur=a[0];
+            int step=0;
+            while(1){
+                cost[cur]=step;
+                cnt[cur]=1;
+                if(cur==1) break; //loop will terminate at this condition
+                if(cur%2!=0) cur++;
+                else cur/=2;
+                step++;
             }
+            if(a[0]==1){
+                cost[2]=1;
+                cnt[2]=1;
+            }
+            for(int i=1;i<n;i++){
+                int cur=a[i];
+                int step=0;
+                bool one=false;
+                while(1){
+                    if(cost.find(cur)!=cost.end()){
+                        cost[cur]+=step;
+                        cnt[cur]++;
+                    }
+                    if(cur==1) break;
+                    if(cur%2!=0) cur++;
+                    else cur/=2;
+                    step++;
+                }
+                if(a[i]==1 && cost.find(2)!=cost.end() && !one){
+                    cost[2]+=1;
+                    cnt[2]++;
+                    one =true;
+                }
+            }
+            int ans=INT_MAX;
+            for(auto &it:cnt){
+                if(it.second==n){
+                    ans=min(ans,cost[it.first]);
+                }
+            }
+            cout<<ans<<endl;
     }
 }
 
